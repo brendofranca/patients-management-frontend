@@ -1,0 +1,9 @@
+version: "3"
+services:
+  patients.management.webapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: patients_management_frontend_container
+    ports:
+      - "3000:3000"

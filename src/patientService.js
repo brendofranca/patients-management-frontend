@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5071/api/v1/patients';
+const API_URL = 'https://localhost:8443/api/v1/patients';
 
 export async function fetchData() {
   try {
