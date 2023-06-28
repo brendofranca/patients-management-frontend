@@ -22,7 +22,6 @@ cd patients-management-frontend
  ```shell
 docker-compose up
 ```
-http://localhost:3000/
 This command will build the Docker images and start the containers for the backend application.
 
 1. Once the containers are up and running, you can access the frontend application at <a href="http://localhost:3000" target="_blank">Patients Management v1.0</a>.
